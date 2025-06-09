@@ -17,14 +17,25 @@ Luego se genera un informe de este tipo:
 ```
 ======================= Análisis de Datos =======================
 
-Cantidad de elementos en los árboles: 4000
-Grado del árbol tipo B: 3
-Elemento existente buscado en ámbos árboled: 4499
-Elemento NO existente buscado en ámbos árboled: 6000
-Tiempo en árbol BTS para elemento existente:  0.000004053
-Tiempo en árbol B para elemento existente:  0.000006199
-Tiempo en árbol BTS para elemento NO existente:  0.000000954
-Tiempo en árbol B para elemento NO existente:  0.000002861
+Datos:
+Cantidad de elementos en los árboles:              1000000
+Grado del árbol tipo B:                            3
+Elemento existente buscado en ámbos árboles:       157734
+Elemento NO existente buscado en ámbos árboles:    2977593
+Elemento medio existente buscado en ámbos árboles: 500000
+
+Tiempos:
+Tiempo en árbol BTS para elemento existente:       0.000010014
+Tiempo en árbol B para elemento existente:         0.000014782
+Tiempo en árbol BTS para elemento NO existente:    0.000003099
+Tiempo en árbol B para elemento NO existente:      0.000009298
+Tiempo en árbol BTS para elemento medio:           0.000006199
+Tiempo en árbol B para elemento medio:             0.000008821
+
+=================================================================
+
+Promedio de búsquedas en árbol BTS:  0.000006437
+Promedio de búsquedas en árbol B:    0.000010967
 
 =================================================================
 ```
