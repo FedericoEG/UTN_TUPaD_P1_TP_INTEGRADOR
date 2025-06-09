@@ -1,3 +1,5 @@
+import time
+
 def insert_node_bts(tree, value):
   if not tree:
     return [value,[],[]]
@@ -102,3 +104,10 @@ def search_node_b(node, value):
     return False
 
   return search_node_b(children[i], value)
+
+def search_and_chrono(tree, value, search_func):
+  start = time.time()
+  search = search_func(tree, value)
+  stop = time.time()
+  seconds = stop - start
+  return seconds, search
