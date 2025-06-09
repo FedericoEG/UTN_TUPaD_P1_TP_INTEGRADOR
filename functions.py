@@ -1,14 +1,14 @@
 import time
 
-def insert_node_bts(tree, value):
+def insert_node_bst(tree, value):
   if not tree:
     return [value,[],[]]
   if value == tree[0]:
     return tree
   if value < tree[0]:
-    tree[1] = insert_node_bts(tree[1], value)
+    tree[1] = insert_node_bst(tree[1], value)
   else:
-    tree[2] = insert_node_bts(tree[2], value)
+    tree[2] = insert_node_bst(tree[2], value)
   return tree
 
 def search_node_bst(tree, value):

@@ -1,9 +1,9 @@
 import random, time
 from utils import show_welcome, validate_input, show_resume
-from functions import insert_node_bts, search_node_bst, insert_node_b, search_node_b, search_and_chrono
+from functions import insert_node_bst, search_node_bst, insert_node_b, search_node_b, search_and_chrono
 from constants import B_TREE_GRADE
 
-bts_tree = []
+bst_tree = []
 b_tree = []
 grade = B_TREE_GRADE
 random_values = []
@@ -37,14 +37,14 @@ if number_of_elements and number_of_grade:
   med_value = int(sum(random_values) / len(random_values))
 
 for v in random_values:
-    bts_tree = insert_node_bts(bts_tree, v)
+    bst_tree = insert_node_bst(bst_tree, v)
     b_tree = insert_node_b(b_tree, v, grade)
 
-bts_tree_ex, bts_tree_ex_find = search_and_chrono(bts_tree, search_value_true, search_node_bst)
+bst_tree_ex, bst_tree_ex_find = search_and_chrono(bst_tree, search_value_true, search_node_bst)
 
-bts_tree_unex, bts_tree_unex_find = search_and_chrono(bts_tree, search_value_false, search_node_bst)
+bst_tree_unex, bst_tree_unex_find = search_and_chrono(bst_tree, search_value_false, search_node_bst)
 
-bts_tree_med, bts_tree_med_find = search_and_chrono(bts_tree, med_value, search_node_bst)
+bst_tree_med, bst_tree_med_find = search_and_chrono(bst_tree, med_value, search_node_bst)
 
 b_tree_ex, b_tree_ex_find = search_and_chrono(b_tree, search_value_true, search_node_b)
 
@@ -52,4 +52,4 @@ b_tree_unex, b_tree_unex_find = search_and_chrono(b_tree, search_value_false, se
 
 b_tree_med, b_tree_med_find = search_and_chrono(b_tree, med_value, search_node_b)
 
-show_resume(number_of_elements, grade, search_value_true, search_value_false, med_value, bts_tree_ex, bts_tree_unex, b_tree_ex, b_tree_unex, bts_tree_med, b_tree_med)
+show_resume(number_of_elements, grade, search_value_true, search_value_false, med_value, bst_tree_ex, bst_tree_unex, b_tree_ex, b_tree_unex, bst_tree_med, b_tree_med)

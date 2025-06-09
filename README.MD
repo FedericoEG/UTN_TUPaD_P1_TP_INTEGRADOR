@@ -12,7 +12,7 @@ Este repositorio contiene los archivos del caso práctico detallado en el cuerpo
 #### Detalle
 La aplicación solicita inicialmente dos valores. El primero va a ser utilizado para confeccionar una lista de valores random. Se solicita un valor entre 1.000 y 5.000 los cuales van a ser los elementos que posteriormente se recorren con un loop para ir agregando los elementos como nodos de dos árboles.
 El segundo valor es un número entre 3 y 9 el cual debe ser un número impar. Este será utilizado como el grado del arbol tipo B.
-La aplicación automáticamente genera un árbol del tipo BTS y uno tipo B con los mismos valores. Luego, y también de manera automática se toma un valor aleatorio que se encuentra en ambos árboles y un valor que no se encuentra en los árboles. Y se realiza una búsqueda en cada uno de ellos.
+La aplicación automáticamente genera un árbol del tipo BST y uno tipo B con los mismos valores. Luego, y también de manera automática se toma un valor aleatorio que se encuentra en ambos árboles y un valor que no se encuentra en los árboles. Y se realiza una búsqueda en cada uno de ellos.
 Luego se genera un informe de este tipo:
 ```
 ======================= Análisis de Datos =======================
@@ -25,16 +25,16 @@ Elemento NO existente buscado en ámbos árboles:    2977593
 Elemento medio existente buscado en ámbos árboles: 500000
 
 Tiempos:
-Tiempo en árbol BTS para elemento existente:       0.000010014
+Tiempo en árbol BST para elemento existente:       0.000010014
 Tiempo en árbol B para elemento existente:         0.000014782
-Tiempo en árbol BTS para elemento NO existente:    0.000003099
+Tiempo en árbol BST para elemento NO existente:    0.000003099
 Tiempo en árbol B para elemento NO existente:      0.000009298
-Tiempo en árbol BTS para elemento medio:           0.000006199
+Tiempo en árbol BST para elemento medio:           0.000006199
 Tiempo en árbol B para elemento medio:             0.000008821
 
 =================================================================
 
-Promedio de búsquedas en árbol BTS:  0.000006437
+Promedio de búsquedas en árbol BST:  0.000006437
 Promedio de búsquedas en árbol B:    0.000010967
 
 =================================================================
