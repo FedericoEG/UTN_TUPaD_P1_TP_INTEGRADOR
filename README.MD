@@ -9,6 +9,10 @@
 
 ## Descripción
 Este repositorio contiene los archivos del caso práctico detallado en el cuerpo del trabajo práctico
+
+### Video
+El video de la presentación del trabajo está [acá](https://youtu.be/PvEdPdeDvNg)
+
 #### Detalle
 La aplicación solicita inicialmente dos valores. El primero va a ser utilizado para confeccionar una lista de valores random. Se solicita un valor entre 1.000 y 5.000 los cuales van a ser los elementos que posteriormente se recorren con un loop para ir agregando los elementos como nodos de dos árboles.
 El segundo valor es un número entre 3 y 9 el cual debe ser un número impar. Este será utilizado como el grado del arbol tipo B.
