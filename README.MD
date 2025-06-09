@@ -4,8 +4,8 @@
 ### Comisión: 14
 
 ## Docentes
-### Profesor/a: Vanina Durrutty
-### Tutor/a: Ana Maria Castro
+### Profesor/a: Ariel Enferrel
+### Tutor/a: Ramiro Hualpa
 
 ## Descripción
 Este repositorio contiene los archivos del caso práctico detallado en el cuerpo del trabajo práctico
